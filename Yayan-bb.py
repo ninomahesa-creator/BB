@@ -188,7 +188,7 @@ def login():
 	time.sleep(0.05) 
 	print "\033[1;91m>>>\033[1;91m[6]\033[1;93m Follow Ig Saya" 
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "
+	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Kembali        "
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 	pilih_login()
 
@@ -232,8 +232,8 @@ def login1():
                 time.sleep(0.05)
 		print logo
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-		jalan('\033[1;96m[✾]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
-		jalan('\033[1;96m[✾]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mGUNAKAN AKUN BARU BUAT UNTUK MASUK\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
