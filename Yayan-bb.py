@@ -106,7 +106,7 @@ logo = """
 \033[0;95m╭════════════════════════════════════════════╮
 \033[0;91m║\033[0;91mAUTHOR : \033[0;92mYayan XD                     \033[0;91m      ║
 \033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Yayan-XD   \033[0;91m     ║
-\033[0;91m║\033[0;91mFB Me :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m   ║
+\033[0;91m║\033[0;91mFB Me :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m        ║
 \033[0;95m╰════════════════════════════════════════════╯
 \033[1;94m⊱══════════════════⊱═⊰BACOT BROTHERHOOD⊱═⊰══════════════════⊰
 \033[1;91mPERINGATAN :\033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN, JANGAN GUNAKAN LOGIN AKUN TUA JIKA AKUN ANDA AKAN DI BLOK
@@ -558,7 +558,7 @@ def menu():
 	print '\033[1;94m[9]\033[1;96m  Spain        \033[1;91m⇋  \033[1;94m[28]\033[1;96m  Mongolia'
 	print '\033[1;94m[10]\033[1;93m Poland       \033[1;91m⇋  \033[1;94m[29]\033[1;93m  New Zealand'
 	print '\033[1;94m[11]\033[1;96m Pakistan     \033[1;91m⇋  \033[1;94m[30]\033[1;96m  Sudan'
-	print '\033[1;94m[12]\033[1;93m Indonisi     \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
+	print '\033[1;94m[12]\033[1;93m Indonesia     \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
 	print '\033[1;94m[13]\033[1;96m Iran         \033[1;91m⇋  \033[1;94m[A]\033[1;93m Telenor' 
 	print '\033[1;94m[14]\033[1;93m Grecee       \033[1;91m⇋  \033[1;94m[B]\033[1;96m  Zong'
 	print '\033[1;94m[15]\033[1;93m Afghanistan  \033[1;91m⇋  \033[1;94m[C]\033[1;93m  Jazz'
