@@ -26,6 +26,6 @@ Instagram [here](https://Instagram.com/yayanxd_)
 
 
 ## BANTUAN
-Hunbungi Saja Wa Saya:)
+Hubungi Wa Saya Jika Perlu, Utamakan Cewek Sebab Admin Joned:'v
 
 <ul><li>NO WA : 085603036683</ul></li>
