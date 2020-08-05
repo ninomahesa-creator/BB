@@ -1,17 +1,31 @@
-# Update Sc
+# Feature
 
-pkg update && pkg ugrade
+<img src="https://github.com/Yayan-XD/BB/blob/master/Screenshot_20200805_161506-picsay.png" />
 
-pkg install python2
+* Mengkloning Semua Negara (Tanpa login Fb)
+* Login Dengan Facebook
+* Login Dengan Akses token
+* Unduh Akses token
 
-pkg install git
+## Installation
+```
+$ pkg update && pkg ugrade
+$ pkg install python2
+$ pkg install git
+$ git clone https://github.com/Yayan-XD/BB
+$ cd BB
+$ pip2 install requests
+$ pip2 install mechanize
+$ python2 Yayan-bb.py
+```
 
-git clone https://github.com/Yayan-XD/BB
+## MY SOCIAL MEDIA
+Facebook [here](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR) 
+Instagram [here](https://Instagram.com/yayanxd_)
 
-cd BB
 
-pip2 install requests
 
-pip2 install mechanize
+## BANTUAN
+Hunbungi Saja Wa Saya:)
 
-python2 Yayan-bb.py
+<ul><li>NO WA : 085603036683</ul></li>
