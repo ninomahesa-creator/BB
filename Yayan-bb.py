@@ -176,17 +176,17 @@ def login():
 	os.system('clear')
 	print logo
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-	print "\033[1;91m>>>\033[1;91m[1]\033[1;94m Cloning All Countries \033[1;91m(\033[1;97mWithout Fb login\033[1;91m) "
+	print "\033[1;91m>>>\033[1;91m[1]\033[1;94m Mengkloning Semua Negara \033[1;91m(\033[1;97mTanpa login Fb\033[1;91m) "
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[2]\033[1;93m Login with Facebook  "
+	print "\033[1;91m>>>\033[1;91m[2]\033[1;93m Login Dengan Facebook  "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[3]\033[1;94m Login with access token "
+        print "\033[1;91m>>>\033[1;91m[3]\033[1;94m Login Dengan Akses token "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[4]\033[1;93m Download Access token"
+        print "\033[1;91m>>>\033[1;91m[4]\033[1;93m Unduh Akses token"
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[5]\033[1;94m Ikuti Fb Saya"
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m[6]\033[1;93m See all yayan commmand" 
+	print "\033[1;91m>>>\033[1;91m[6]\033[1;93m Follow Ig Saya" 
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
@@ -210,7 +210,7 @@ def pilih_login():
 		os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 		login()
 	elif unikers =="6":
-		os.system('xdg-open https://github.com/Yayan-XD')
+		os.system('xdg-open https://Instagram.com/yayanxd_')
 		login()
 	elif unikers =="0":
 		jalan('Token Removed')
