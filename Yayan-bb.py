@@ -210,7 +210,7 @@ def pilih_login():
 		os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 		login()
 	elif unikers =="6":
-		os.system('xdg-open https://Instagram.com/yayanxd_')
+		os.system('xdg-open https://www.instagram.com/yayanxd_/')
 		login()
 	elif unikers =="0":
 		jalan('Token Removed')
