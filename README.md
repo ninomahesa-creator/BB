@@ -24,12 +24,14 @@ $ pip2 install mechanize
 $ python2 Yayan-bb.py
 ```
 
-#Pict Hasil Script
+# Pict Hasil Script
 
 <img src="https://github.com/Yayan-XD/BB/blob/master/Screenshot_20200805_161506-picsay.png" />
 
 ## MY SOCIAL MEDIA
+
 Ikuti Facebook [Ikuti](https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR) 
+
 Ikuti Instagram [Ikuti](https://Instagram.com/yayanxd_)
 
 
