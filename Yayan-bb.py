@@ -186,7 +186,7 @@ def login():
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[5]\033[1;94m Ikuti Fb Saya"
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m[6]\033[1;93m Follow Ig Saya" 
+	print "\033[1;91m>>>\033[1;91m[6]\033[1;93m Follow Ig Saya @yayanxd_" 
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Kembali        "
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
