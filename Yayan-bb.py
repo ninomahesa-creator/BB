@@ -109,11 +109,13 @@ logo = """
 \033[1;91m|  _ \| |_) | | | || | | |_| |  _| | |_) | |_| | | | | | | | | | |
 \033[1;95m| |_) |  _ <| |_| || | |  _  | |___|  _ <|  _  | |_| | |_| | |_| |
 \033[1;94m|____/|_| \_\\___/ |_| |_| |_|_____|_| \_\_| |_|\___/ \___/|____/ 
-\033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m║\033[0;91mAUTHOR : \033[0;92mYayan XD                     \033[0;91m      ║
-\033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Yayan-XD   \033[0;91m     ║
-\033[0;91m║\033[0;91mFB Me  :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m       ║
-\033[0;95m╰════════════════════════════════════════════╯
+\033[0;95m╭═══════════════════════════════════════════════════╮
+\033[0;91m║\033[0;91mAUTHOR      :\033[0;92m Yayan XD                      \033[0;91m  ║
+\033[0;91m║\033[0;91mWA AING     :\033[0;92m 085603036683                  \033[0;91m  ║
+\033[0;91m║\033[0;91mHALAMAM FB  :\033[0;92m Bacot Brotherhood             \033[0;91m  ║
+\033[0;91m║\033[0;91mFB AING     :\033[0;92m Moch Yayan Juan Alvredo XD    \033[0;91m  ║
+\033[0;91m║\033[0;91mGITHUB      :\033[0;92m https://github.com/Yayan-XD   \033[0;91m  ║
+\033[0;95m╰═══════════════════════════════════════════════════╯
 \033[1;94m⊱══════════════════⊱═⊰BACOT BROTHERHOOD⊱═⊰══════════════════⊰
 \033[1;91mPERINGATAN :\033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN, JANGAN GUNAKAN LOGIN AKUN TUA JIKA AKUN ANDA AKAN DI BLOK
 \033[1;91mWIFI ATAU DATA MOBILE :\033[1;93mJANGAN GUNAKAN WIFI, HANYA MENGGUNAKAN DATA MOBILE UNTUK KLONING 
