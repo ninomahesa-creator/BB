@@ -96,7 +96,7 @@ logo = """
 \033[1;95m              \   `   / \  `   / \  `.  /        
 \033[1;94m               `.___,/   `.__,/   `.__,/         
 \033[1;95m
-\033[1;95m BACOT BROTHERHOOD TEAM HEKEL TIADA TANDING!
+\033[1;95m BACOT BROTHERHOOD TEAM USER HEKEL TIADA TANDING!
 \033[1;95m
 \033[1;91m ____    _    ____ ___ _____ 
 \033[1;95m| __ )  / \  / ___/ _ \_   _|
@@ -112,12 +112,12 @@ logo = """
 \033[0;95m╭════════════════════════════════════════════╮
 \033[0;91m║\033[0;91mAUTHOR : \033[0;92mYayan XD                     \033[0;91m      ║
 \033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Yayan-XD   \033[0;91m     ║
-\033[0;91m║\033[0;91mFB Me :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m        ║
+\033[0;91m║\033[0;91mFB Me  :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m       ║
 \033[0;95m╰════════════════════════════════════════════╯
 \033[1;94m⊱══════════════════⊱═⊰BACOT BROTHERHOOD⊱═⊰══════════════════⊰
 \033[1;91mPERINGATAN :\033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN, JANGAN GUNAKAN LOGIN AKUN TUA JIKA AKUN ANDA AKAN DI BLOK
 \033[1;91mWIFI ATAU DATA MOBILE :\033[1;93mJANGAN GUNAKAN WIFI, HANYA MENGGUNAKAN DATA MOBILE UNTUK KLONING 
-\033[1;91mID TIDAK DITEMUKAN MASALAH :\033[1;93mSALIN UNTUK PROFIL USERNAME FOTO DAN KEMUDIAN PASTE DI TERMUX
+\033[1;91mID TIDAK DITEMUKAN? ATAU ADA MASALAH? :\033[1;93mCARANYA SALIN USERNAME PROFIL LO KEMUDIAN PASTE KAN DI TERMUX
 """
 
 def tik():
