@@ -96,8 +96,8 @@ logo = """
 \033[1;95m              \   `   / \  `   / \  `.  /        
 \033[1;94m               `.___,/   `.__,/   `.__,/         
 \033[1;95m
-\033[1;95m BACOT BROTHERHOOD TEAM USER HEKEL TIADA TANDING!
-\033[1;95m
+\033[1;95m BACOT BROTHERHOOD TEAM
+\033[1;95m USER HEKEL TIADA TANDING!
 \033[1;91m ____    _    ____ ___ _____ 
 \033[1;95m| __ )  / \  / ___/ _ \_   _|
 \033[1;94m|  _ \ / _ \| |  | | | || |
