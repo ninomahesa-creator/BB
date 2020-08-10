@@ -293,7 +293,8 @@ def login1():
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;91m[+]\033[1;92mToken\033[1;91m :\033[1;95mEnter accees token link without Fb login>> ")
+	print 42*"="
+	toket = raw_input("\033[1;91m[+]\033[1;92m Give Token\033[1;91m :\033[1;95>>\033[1;93m ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
