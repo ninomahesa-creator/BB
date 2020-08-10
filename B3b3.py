@@ -86,16 +86,19 @@ print  """
 
 jalan("\033[1;97m•◈•───────•◈ 🎌SCRIPT BY BACOT BROTHERHOOD TEAM🎌 •◈•───────•◈•")  
 
-jalan("\033[1;96m•◈•  ____  ____    _____ _____    _    __  __ ")
+jalan("\033[1;97m•◈•  ____  ____    _____ _____    _    __  __ ")
 jalan("\033[1;96m•◈• | __ )| __ )  |_   _| ____|  / \  |  \/  |")
 jalan("\033[1;97m•◈• |  _ \|  _ \    | | |  _|   / _ \ | |\/| |")
 jalan("\033[1;96m•◈• | |_) | |_) |   | | | |___ / ___ \| |  | |")
-jalan("\033[1;96m•◈• |____/|____/    |_| |_____/_/   \_\_|  |_|")
+jalan("\033[1;97m•◈• |____/|____/    |_| |_____/_/   \_\_|  |_|")
 
-jalan("   \033[1;91m BACOT BROTHERHOOD TEAM ")	
-jalan("   \033[1;91m USER HEKEL TIADA TANDING ")	
-
-jalan("   \033[1;93m Selamat Datang Di Script BACOT BROTHERHOOD ")
+jalan("   \033[1;96m Wa Me : 085603036683 ")
+jalan("   \033[1;97m Fp Fb : Bacot Brotherhood ")
+jalan("   \033[1;91m Fb Me : Moch Yayan Juan Alvredo XD. ")
+jalan("   \033[1;96m GUNAKAN SC INI DENGAN BIJAK! ")
+jalan("   \033[1;93m BACOT BROTHERHOOD TEAM ")
+jalan("   \033[1;91m USER HEKEL TIADA TANDING ")
+jalan("   \033[1;97m Selamat Datang Di Script BACOT BROTHERHOOD ")
 
 jalan("\033[1;97m•◈•──────────•◈•\033[1;96mBACOT BROTHERHOOD TEAM\033[1;96m•◈•──────────•◈•")
 
@@ -270,12 +273,12 @@ def login1():
 				print"\n\x1b[1;97mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;97mYour Account is on Checkpoint")
+			print("\n\x1b[1;97mSepertinya Akun Anda Kena Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;93mPassword/Email is wrong")
+			print("\n\x1b[1;93mPassword/Email Anda Salah")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -295,7 +298,7 @@ def tokenz():
 		menu()
 	except KeyError:
 		print "\033[1;91m[!] Salah"
-		e = raw_input("\033[1;91m[?] \033[1;92mAnda Tau token?\033[1;97m[y/n]: ")
+		e = raw_input("\033[1;91m[?] \033[1;92mAnda Tau token?Kalo Tidak Tau Pm Saya!\033[1;97m[y/n]: ")
 		if e =="":
 			keluar()
 		elif e =="y":
@@ -323,7 +326,7 @@ def menu():
                 sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;97mYour Account is on Checkpoint"
+		print"\033[1;97mSepertinya Akun Anda Kena Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
@@ -397,8 +400,8 @@ def pilih_super():
 			op = json.loads(jok.text)
 			print"\033[1;31;37m[⊱⋕⊰] Nama : "+op["name"]
 		except KeyError:
-			print"\x1b[1;37m[⊱⋕⊰] ID Not Found!"
-			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
+			print"\x1b[1;37m[⊱⋕⊰] ID Salah!"
+			raw_input("\n\033[1;96m[\033[1;94mKeluar\033[1;96m]")
 			super()
 		print"\033[1;35;37m[⊱⋕⊰] Getting ID Loading process........ "
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
@@ -417,7 +420,7 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;32;40m[⊱⋕⊰] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;94m   ❈     \033[1;91mCp Akun Simpan 7 Hari      \033[1;94m  ❈"
+	print "\n\033[1;94m   ❈     \033[1;91mBila Akunya Cp Akun Simpan 7 Hari     \033[1;94m  ❈"
 	print 42*"\033[1;97m="
 
 	def main(arg):
@@ -643,4 +646,3 @@ def pilih_super():
 
 if __name__ == '__main__':
 	login()
-
