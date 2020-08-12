@@ -655,7 +655,6 @@ if __name__ == '__main__':
 	login()
 
 
-	
 def menu():
 	os.system('clear')
 	print logo
@@ -1250,12 +1249,12 @@ def action():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print 42*"\033[1;91m="
-	print '[✓]\033[1;93m Process Has Been Completed ....'
-	print '[✓]\033[1;92m Total OK/\033[1;96mCP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓]\033[1;91m CP File Has Been Saved : save/checkpoint.txt')
-	raw_input('\n[Press Enter To Go Back]')
-	os.system('python2 .README.md')
+	print 42*"\033[1;97m="
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProses Telah Selesai \033[1;97m....'
+	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
+	print("\033[1;96m[+] \033[1;92mCP File Telah Disimpan \033[1;91m: \033[1;97mout/checkpoint.txt")
+	raw_input("\n\033[1;96m[\033[1;97mKeluar\033[1;96m]")
+	menu()
 
 if __name__ == '__main__':
 	login()
