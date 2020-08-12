@@ -218,8 +218,8 @@ def pilih_login():
 	elif peak =="5":
 		os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 		login()
-	elif unikers =="6":
-		os.system('xdg-open https://www.instagram.com/yayanxd_/')
+	elif peak =="6":
+		os.system('xdg-open https://www.instagram.com/yayanxd_')
 		login()
 	elif unikers =="0":
 		jalan('Token Terhapus')
