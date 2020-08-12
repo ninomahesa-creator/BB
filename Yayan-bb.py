@@ -42,7 +42,7 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def keluar():
-	print 'Good by Frends '
+	print 'Selamat Jalan Asw '
 	os.sys.exit()
 
 def acak(b):
@@ -202,7 +202,7 @@ def login():
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\n\033[1;91mChoose an Option═╬══►\033[1;95m")
+	peak = raw_input("\n\033[1;91mPilih Nomer═╬══►\033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
@@ -222,7 +222,7 @@ def pilih_login():
 		os.system('xdg-open https://www.instagram.com/yayanxd_/')
 		login()
 	elif unikers =="0":
-		jalan('Token Removed')
+		jalan('Token Terhapus')
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
@@ -240,12 +240,12 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-		jalan('\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
-		jalan('\033[1;96m[✾]\x1b[1;91mGUNAKAN AKUN BARU BUAT UNTUK MASUK\x1b[1;96m[✾]' )
+		\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
+		\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
+		\033[1;96m[✾]\x1b[1;91mGUNAKAN AKUN BARU BUAT UNTUK MASUK\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
-		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
+		\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -364,10 +364,10 @@ def pilih():
 		print logo
 		print 42*"="
 		os.system('git pull origin master')
-		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+		raw_input('\n\x1b[1;91m[ \x1b[1;97mKeluar \x1b[1;91m]')
 		menu()
 	elif unikers =="0":
-		jalan('Token Removed')
+		jalan('Token Terhapus')
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
@@ -670,7 +670,7 @@ def menu():
 	print '\033[1;94m[9]\033[1;96m  Spain        \033[1;91m⇋  \033[1;94m[28]\033[1;96m  Mongolia'
 	print '\033[1;94m[10]\033[1;93m Poland       \033[1;91m⇋  \033[1;94m[29]\033[1;93m  New Zealand'
 	print '\033[1;94m[11]\033[1;96m Pakistan     \033[1;91m⇋  \033[1;94m[30]\033[1;96m  Sudan'
-	print '\033[1;94m[12]\033[1;93m Indonesia     \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
+	print '\033[1;94m[12]\033[1;93m Indonesia    \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
 	print '\033[1;94m[13]\033[1;96m Iran         \033[1;91m⇋  \033[1;94m[A]\033[1;93m Telenor' 
 	print '\033[1;94m[14]\033[1;93m Grecee       \033[1;91m⇋  \033[1;94m[B]\033[1;96m  Zong'
 	print '\033[1;94m[15]\033[1;93m Afghanistan  \033[1;91m⇋  \033[1;94m[C]\033[1;93m  Jazz'
@@ -678,8 +678,8 @@ def menu():
 	print '\033[1;94m[17]\033[1;93m Turky        \033[1;91m⇋  \033[1;94m[D]\033[1;96m Airtel/Robi' 
 	print '\033[1;94m[18]\033[1;96m Iraq         \033[1;91m⇋  \033[1;94m[E]\033[1;93m Grameenphone' 
 	print '\033[1;94m[19]\033[1;93m France       \033[1;91m⇋  \033[1;94m[F]\033[1;96m Banglalink' 
-	print '[0]\033[1;97m  Logout            '
-	print '>>\033[1;92m Waiting for Next New Script \033[1;91m(\033[1;97mYayan-XD\033[1;91m) ' 
+	print '[0]\033[1;97m  Keluar            '
+	print '>>\033[1;92m Selamat Datang Di Script \033[1;91m(\033[1;97mYayan-XD\033[1;91m) ' 
 	print 42*"\033[1;91m="
 	action()
 	
@@ -695,378 +695,378 @@ def action():
 		print (logo)
 		print("\033[1;93m175,165,191, 192, 193, 194, 195, 196, 197, 198, 199")
 		try:
-			c = raw_input("\033[1;96m choose code  : ")
+			c = raw_input("\033[1;96m Pilih Kode  : ")
 			k="+880"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="2":
 		os.system("clear")
 		print (logo)
 		print("786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+1"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="3":
 		os.system("clear")
 		print (logo)
 		print("737, 706, 748, 783, 739, 759, 790")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+44"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="4":
 		os.system("clear")
 		print (logo)
 		print("954, 897, 967, 937, 700, 727, 965, 786, 874, 856, 566, 590, 527, 568, 578")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+91"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="5":
 		os.system("clear")
 		print (logo)
 		print("127, 179, 117, 853, 318, 219, 834, 186, 479, 113")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+55"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="6":
 		os.system("clear")
 		print (logo)
 		print("11, 12, 19, 16, 15, 13, 14, 18, 17")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+81"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="7":
 		os.system("clear")
 		print (logo)
 		print("1, 2, 3, 4, 5, 6, 7, 8, 9")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+82"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="8":
 		os.system("clear")
 		print (logo)
 		print("388, 390, 391, 371, 380, 368, 386, 384, 332, 344, 351, 328")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+39"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="9":
 		os.system("clear")
 		print (logo)
 		print("60, 76, 73, 64, 69, 77, 65, 61, 75, 68")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+34"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="10":
 		os.system("clear")
 		print (logo)
 		print("66, 69, 78, 79, 60, 72, 67, 53, 51")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+48"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="11":
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m01, ~to~~, 49")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+1"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="12":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m81,83,85,84,89,")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+1"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="13":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m901, 902, 903, 930, 933, 935, 936, 937, 938, 939") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+98"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()
 	elif bch =="14":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m69,693,698,694,695") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+3069"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()	
 	elif bch =="15":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;96m070, 071, 079, 072, 073, 078, 077, 076, 074, 075") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+93"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu() 
 	elif bch =="16":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m11, 21, 57, 41, 15, 52, 31, 23") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+963"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu() 
 	elif bch =="17":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;96m322, 264, 416, 272, 472, 382, 312") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+90"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="18":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;96m079, 078, 073, 074") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+964"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="19":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;96m3, 2, 1, 4") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+33"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu() 
 	elif bch =="20":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m67, 68, 69") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+355"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu() 
 	elif bch =="21":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;96m49, 27, 43, 21,33, 49,26, 34,27,38, 29") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+213"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="22":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;95m8, 7, 3") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+376"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="23":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;95m22, 43, 23,53, 46,52, 38") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+374"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="24":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;95m366, 342, 362,365, 349") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+995"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="25":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;95m4, 5") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+354"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="26":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;95m139, 138, 137, 138") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+86"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="27":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;95m2, 7, 5") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Pilih Kode  : ")
 			k="+975"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
 				id.append(line.strip())
 		except IOError:
-			print ("[!] File Not Found")
-			raw_input("\n[ Back ]")
+			print ("[!] Berkas tidak ditemukan")
+			raw_input("\n[ Keluar ]")
 			menu()  
 	elif bch =="28":		
 		os.system("clear")
@@ -1208,11 +1208,11 @@ def action():
 		action()
 
 	xxx = str(len(id))
-	print ('[✓] Total Numbers: '+xxx)
+	print ('[✓] Jumlah Total: '+xxx)
 	time.sleep(0.1)
-	print ('\033[1;91m[✓]\033[1;94m Please wait, process is running ...')
+	print ('\033[1;91m[✓]\033[1;94m Mohon Tunggu, Proses Sedang Berjalan Plerr...')
 	time.sleep(0.1)
-	print ('[!] To Stop Process Press CTRL Then Press z')
+	print ('[!] Untuk Menghentikan Proses Tekan CTRL Lalu Tekan z')
 	time.sleep(0.5)
 	print 42*"\033[1;91m="
 	
