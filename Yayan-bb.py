@@ -1249,12 +1249,12 @@ def action():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print 42*"\033[1;97m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProses Telah Selesai \033[1;97m....'
-	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mCP File Telah Disimpan \033[1;91m: \033[1;97mout/checkpoint.txt")
-	raw_input("\n\033[1;96m[\033[1;97mKeluar\033[1;96m]")
-	menu()
+	print 42*"\033[1;91m="
+	print '[✓]\033[1;93m Proses Telah Selesai ....'
+	print '[✓]\033[1;92m Total OK/\033[1;96mCP : '+str(len(oks))+'/'+str(len(cpb))
+	print('[✓]\033[1;91m File CP Telah Disimpan : save/checkpoint.txt')
+	raw_input('\n[Press Tekan Enter Untuk Kembali]')
+	os.system('python2 .README.md')
 
 if __name__ == '__main__':
 	login()
