@@ -291,8 +291,6 @@ def login1():
 			time.sleep(1)
 			login()
 
-
-
 def tokenz():
 	os.system('clear')
 	print logo
