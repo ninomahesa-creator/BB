@@ -292,6 +292,7 @@ def login1():
 			login()
 
 
+
 def tokenz():
 	os.system('clear')
 	print logo
@@ -657,6 +658,7 @@ if __name__ == '__main__':
 	login()
 
 
+
 def menu():
 	os.system('clear')
 	print logo
@@ -680,15 +682,15 @@ def menu():
 	print '\033[1;94m[17]\033[1;93m Turky        \033[1;91m⇋  \033[1;94m[D]\033[1;96m Airtel/Robi' 
 	print '\033[1;94m[18]\033[1;96m Iraq         \033[1;91m⇋  \033[1;94m[E]\033[1;93m Grameenphone' 
 	print '\033[1;94m[19]\033[1;93m France       \033[1;91m⇋  \033[1;94m[F]\033[1;96m Banglalink' 
-	print '[0]\033[1;97m  Logout            '
-	print '>>\033[1;92m Waiting for Next New Script \033[1;91m(\033[1;97mYayan-XD\033[1;91m) ' 
+	print '[0]\033[1;97m  Keluar            '
+	print '>>\033[1;92m Selamat Datang Di Script \033[1;91m(\033[1;97mYayan-XD\033[1;91m) ' 
 	print 42*"\033[1;91m="
 	action()
 	
 	
 
 def action():
-	bch = raw_input('\n\033[1;91mSelect Option \033[1;93m>>>\033[1;95m  ')
+	bch = raw_input('\n\033[1;91mPilih Nomor \033[1;93m>>>\033[1;95m  ')
 	if bch =='':
 		print '[!] Fill in correctly'
 		action()
@@ -1212,9 +1214,9 @@ def action():
 	xxx = str(len(id))
 	print ('[✓] Total Numbers: '+xxx)
 	time.sleep(0.1)
-	print ('\033[1;91m[✓]\033[1;94m Please wait, process is running ...')
+	print ('\033[1;91m[✓]\033[1;94m Mohon Tunggu Peler Lagi Proses ...')
 	time.sleep(0.1)
-	print ('[!] To Stop Process Press CTRL Then Press z')
+	print ('[!] Untuk Berhenti Tools Tekan CTRL Lalu Tekan z')
 	time.sleep(0.5)
 	print 42*"\033[1;91m="
 	
@@ -1252,10 +1254,10 @@ def action():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;91m="
-	print '[✓]\033[1;93m Process Has Been Completed ....'
+	print '[✓]\033[1;93m Process Telah Selesai ....'
 	print '[✓]\033[1;92m Total OK/\033[1;96mCP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓]\033[1;91m CP File Has Been Saved : save/checkpoint.txt')
-	raw_input('\n[Press Enter To Go Back]')
+	print('[✓]\033[1;91m CP File Sudah Tersave : save/checkpoint.txt')
+	raw_input('\n[Proses Selesai Keluar]')
 	os.system('python2 .README.md')
 
 if __name__ == '__main__':
