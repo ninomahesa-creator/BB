@@ -105,6 +105,25 @@ logo = """
 \033[1;94m⊱══════════════════⊱═⊰BACOT BROTHERHOOD⊱═⊰══════════════════⊰
 """
 
+CorrectUsername = "YayanGanteng"
+CorrectPassword = "AkuJelek"
+
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK YayanGanteng \x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK AkuJelek \x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "Salah Tolol,Ketik AkuJelek"
+            os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
+    else:
+        print "Salah Tolol,Ketik YayanGanteng"
+        os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
