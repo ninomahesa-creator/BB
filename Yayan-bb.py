@@ -105,6 +105,25 @@ logo = """
 \033[1;94m⊱══════════════════⊱═⊰BACOT BROTHERHOOD⊱═⊰══════════════════⊰
 """
 
+CorrectUsername = "YayanGanteng"
+CorrectPassword = "AkuJelek"
+
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK YayanGanteng \x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK AkuJelek \x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "Salah Tolol,Ketik AkuJelek"
+            os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
+    else:
+        print "Salah Tolol,Ketik YayanGanteng"
+        os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -549,7 +568,7 @@ def menu():
 	print '\033[1;94m[9]\033[1;96m  Spain        \033[1;91m⇋  \033[1;94m[28]\033[1;96m  Mongolia'
 	print '\033[1;94m[10]\033[1;93m Poland       \033[1;91m⇋  \033[1;94m[29]\033[1;93m  New Zealand'
 	print '\033[1;94m[11]\033[1;96m Pakistan     \033[1;91m⇋  \033[1;94m[30]\033[1;96m  Sudan'
-	print '\033[1;94m[12]\033[1;93m Indonisi     \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
+	print '\033[1;94m[12]\033[1;93m Indonisia    \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
 	print '\033[1;94m[13]\033[1;96m Iran         \033[1;91m⇋  \033[1;94m[A]\033[1;93m Telenor' 
 	print '\033[1;94m[14]\033[1;93m Grecee       \033[1;91m⇋  \033[1;94m[B]\033[1;96m  Zong'
 	print '\033[1;94m[15]\033[1;93m Afghanistan  \033[1;91m⇋  \033[1;94m[C]\033[1;93m  Jazz'
@@ -1089,9 +1108,9 @@ def action():
 	xxx = str(len(id))
 	print ('[✓] Total Numbers: '+xxx)
 	time.sleep(0.1)
-	print ('\033[1;91m[✓]\033[1;94m Please wait, process is running ...')
+	print ('\033[1;91m[✓]\033[1;94m Mohon Tunggu Proses Sedang Berjalan ...')
 	time.sleep(0.1)
-	print ('[!] To Stop Process Press CTRL Then Press z')
+	print ('[!] Untuk Menghentikan Proses Tekan CTRL Lalu Tekan z')
 	time.sleep(0.5)
 	print 42*"\033[1;91m="
 	
@@ -1129,9 +1148,9 @@ def action():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;91m="
-	print '[✓]\033[1;93m Process Has Been Completed ....'
+	print '[✓]\033[1;93m Process Telah Selesai ...'
 	print '[✓]\033[1;92m Total OK/\033[1;96mCP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓]\033[1;91m CP File Has Been Saved : save/checkpoint.txt')
+	print('[✓]\033[1;91m CP File Telah Disimpan : save/checkpoint.txt')
 	raw_input('\n[Press Enter To Go Back]')
 	os.system('python2 .README.md')
 
