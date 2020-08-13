@@ -81,43 +81,34 @@ Y='\033[1;93m'
 #Dev:YAYAN XD
 #### LOGO ####
 logo = """
-\033[1;95m                       ,ood8888booo,
-\033[1;91m                    ,oda8a888a888888bo,
-\033[1;94m                 ,od88888888aa888aa88a8bo,
-\033[1;95m               ,da8888aaaa88a888aaaa8a8a88b,
-\033[1;94m              ,oa888aaaa8aa8888aaa8aa8a8a88o,
-\033[1;91m             ,88888aaaaaa8aa8888a8aa8aa888a88,
-\033[1;95m             8888a88aaaaaa8a88aa8888888a888888
-\033[1;94m             888aaaa88aa8aaaa8888; ;8888a88888
-\033[1;91m             Y888a888a888a8888;'   ;888888a88Y
-\033[1;95m              Y8a8aa8a888a88'      ,8aaa8888Y
-\033[1;94m               Y8a8aa8aa8888;     ;8a8aaa88Y
-\033[1;91m                `Y88aa8888;'      ;8aaa88Y'
-\033[1;95m        ,,;;;;;;;;'''''''         ;8888Y'
-\033[1;94m     ,,;                         ,888P
-\033[1;95m   ,;  ,;,                      ;""
-\033[1;94m  ;       ;          ,    ,    ,;
-\033[1;95m ;  ;,    ;     ,;;;;;   ;,,,  ;
-\033[1;91m;  ; ;  ,' ;  ,;      ;  ;   ;  ;
-\033[1;94m; ;  ; ;  ;  '        ; ,'    ;  ;
-\033[1;91m`;'  ; ;  '; ;,       ; ;      ; ',
-\033[1;95m     ;  ;,  ;,;       ;  ;,     ;;;
-\033[1;94m      ;,,;             ;,,;     
+\033[1;93m   ____     ____                      
+\033[1;93mU | __")uU | __")u                    
+\033[1;93m \|  _ \/ \|  _ \/                    
+\033[1;93m  | |_) |  | |_) |                    
+\033[1;93m  |____/   |____/                     
+\033[1;93m _|| \\_  _|| \\_                     
+\033[1;93m(__) (__)(__) (__)                    
+\033[1;97m
+\033[1;97m  _____  U _____ u    _      __  __   
+\033[1;97m |_ " _| \| ___"|/U  /"\  uU|' \/ '|u 
+\033[1;97m   | |    |  _|"   \/ _ \/ \| |\/| |/ 
+\033[1;97m  /| |\   | |___   / ___ \  | |  | |  
+\033[1;97m u |_|U   |_____| /_/   \_\ |_|  |_|  
+\033[1;97m _// \\_  <<   >>  \\    >><<,-,,-.   
+\033[1;97m(__) (__)(__) (__)(__)  (__)(./  \.)  
+\033[1;97m
 \033[0;95m╭════════════════════════════════════════════╮
 \033[0;91m║\033[0;91mAUTHOR : \033[0;92mYayan XD                     \033[0;91m      ║
 \033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Yayan-XD   \033[0;91m     ║
-\033[0;91m║\033[0;91mFB Me :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m   ║
+\033[0;91m║\033[0;91mFB Me  :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m       ║
 \033[0;95m╰════════════════════════════════════════════╯
 \033[1;94m⊱══════════════════⊱═⊰BACOT BROTHERHOOD⊱═⊰══════════════════⊰
-\033[1;91mPERINGATAN :\033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN, JANGAN GUNAKAN LOGIN AKUN TUA JIKA AKUN ANDA AKAN DI BLOK
-\033[1;91mWIFI ATAU DATA MOBILE :\033[1;93mJANGAN GUNAKAN WIFI, HANYA MENGGUNAKAN DATA MOBILE UNTUK KLONING 
-\033[1;91mID TIDAK DITEMUKAN MASALAH :\033[1;93mSALIN UNTUK PROFIL USERNAME FOTO DAN KEMUDIAN PASTE DI TERMUX
 """
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;93mMohon Tunggu \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
