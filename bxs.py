@@ -107,7 +107,7 @@ jalan("\033[1;97m•◈•║╔═╗║╔═╗║──║║─║╔══
 jalan("\033[1;97m•◈•║╚═╝║╚═╝║──║║─║╚══╣╔═╗║║║║║║")
 jalan("\033[1;97m•◈•╚═══╩═══╝──╚╝─╚═══╩╝─╚╩╝╚╝╚╝")
 jalan("\033[1;96m•◈•───────•◈•\033[1;96m🎌BACOT BROTHERHOOD TEAM🎌\033[1;96m•◈•───────•◈•")
-jalan("\033[1;97m•◈•flw ig : yayanxd_ ")
+jalan("\033[1;97m•◈• Ig Me : yayanxd_ ")
 jalan("\033[1;97m•◈• Wa Me : 085603036683 ")
 jalan("\033[1;97m•◈• Fp Fb : Bacot Brotherhood ")
 jalan("\033[1;97m•◈• Fb Me : Moch Yayan Juan Alvredo XD. ")
