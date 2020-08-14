@@ -102,7 +102,7 @@ logo = """
 \033[0;93m║\033[0;93mFB ME  :\033[0;93mMoch Yayan Juan Alvredo XD.    \033[0;93m     ║
 \033[0;92m║\033[0;92mGITHUB :\033[0;92m https://github.com/Yayan-XD \033[0;92m       ║
 \033[0;92m╰════════════════════════════════════════════╯
-\033[1;96m⊱════════════⊱═⊰BACOT BROTHERHOOD⊱════════════⊱═⊰
+\033[1;96m⊱═══════════⊱═⊰BACOT BROTHERHOOD⊱═══════════⊱═⊰
 """
 
 CorrectUsername = "YayanGanteng"
