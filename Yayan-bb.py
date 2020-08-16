@@ -215,7 +215,7 @@ def login():
 	pilih_login()
 
 def pilih_login():
-	peak = raw_input("\n\033[1;97mPilih Nomer═╬══►\033[1;95m")
+	peak = raw_input("\n\033[1;92mPilih Nomer═╬══►\033[1;95m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_login()
@@ -253,12 +253,12 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
+		jalan("\033[1;92m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 		jalan('\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
 		jalan('\033[1;96m[✾]\x1b[1;91mGUNAKAN AKUN BARU BUAT/LOGIN FIA TOKEN\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
-		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
+		jalan("\033[1;92m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -354,11 +354,11 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	jalan( "\033[1;93m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰"  ) 
+	jalan( "\033[1;92m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰"  ) 
 	print "  \033[1;36;40m\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m"                               
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
-	jalan( "\033[1;93m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰") 
+	jalan( "\033[1;92m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰") 
 	print "\033[1;32;98m[1] \033[1;96m>> Mulai Cloning "																														
 	print "\033[1;32;98m[0] \033[1;96m>> Keluar"
 	pilih()
@@ -373,7 +373,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
+		print "\033[1;92m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
@@ -397,10 +397,10 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
+	print "\033[1;92m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Hack Daftar Teman Publik") 
 	jalan( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
+	print "\033[1;92m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	pilih_super()
 
 def pilih_super():
@@ -411,7 +411,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;96m⊱⋕⊰═══════════════════════════════════════⊱⋕⊰\n" 
+		print "\033[1;92m⊱⋕⊰═══════════════════════════════════════⊱⋕⊰\n" 
 		idt = raw_input("\033[1;96m[⊱⋕⊰]\033[1;93m Enter ID/USERNAME\033[1;91m : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
