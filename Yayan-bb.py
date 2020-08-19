@@ -42,7 +42,7 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 br.addheaders = [('user-agent','Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def keluar():
-	print 'Good by Frends '
+	print 'Selamat Tinggal Asw '
 	os.sys.exit()
 
 def acak(b):
@@ -198,17 +198,17 @@ def login():
 	os.system('clear')
 	print logo
 	jalan("\033[1;97m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-	print "\033[1;91m>>>\033[1;91m[1]\033[1;94m Cloning Semua Negara \033[1;91m(\033[1;97mTanpa Fb login\033[1;91m) "
+	print "\033[1;91m>>>\033[1;91m[1]\033[1;92m Cloning Semua Negara \033[1;91m(\033[1;97mTanpa Fb login\033[1;91m) "
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[2]\033[1;92m Login Pakai Facebook  "
+	print "\033[1;91m>>>\033[1;91m[2]\033[1;94m Login Pakai Facebook  "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[3]\033[1;94m Login Pakai Akses token "
+        print "\033[1;91m>>>\033[1;91m[3]\033[1;92m Login Pakai Akses token "
         time.sleep(0.05)
-        print "\033[1;91m>>>\033[1;91m[4]\033[1;92m Unduh Akses token"
+        print "\033[1;91m>>>\033[1;91m[4]\033[1;94m Unduh Akses token"
 	time.sleep(0.05)
-	print "\033[1;91m>>>\033[1;91m[5]\033[1;94m Ikuti Fb Saya"
+	print "\033[1;91m>>>\033[1;91m[5]\033[1;92m Ikuti Fb Saya"
 	time.sleep(0.05) 
-	print "\033[1;91m>>>\033[1;91m[6]\033[1;92m Follow Ig Saya @yayanxd_" 
+	print "\033[1;91m>>>\033[1;91m[6]\033[1;94m Follow Ig Saya" 
 	time.sleep(0.05)
 	print "\033[1;91m>>>\033[1;91m[0]\033[1;96m Keluar        "
 	jalan("\033[1;97m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
@@ -235,7 +235,6 @@ def pilih_login():
 		os.system('xdg-open https://Instagram.com/yayanxd_')
 		login()
 	elif unikers =="0":
-		jalan('Token Removed')
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
@@ -253,12 +252,12 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo
-		jalan("\033[1;92m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
+		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 		jalan('\033[1;96m[✾]\x1b[1;91mJANGAN GUNAKAN AKUN OLD UNTUK LOGIN\x1b[1;96m[✾]' )
 		jalan('\033[1;96m[✾]\x1b[1;91mGUNAKAN AKUN BARU BUAT/LOGIN FIA TOKEN\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
-		jalan("\033[1;92m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
+		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -354,11 +353,11 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	jalan( "\033[1;92m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰"  ) 
+	jalan( "\033[1;93m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰"  ) 
 	print "  \033[1;36;40m\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m"                               
 	print "  \033[1;36;40m\033[1;32;40m[*] ID  \033[1;32;40m: "+id+"        \033[1;36;92m"
 	print "  \033[1;36;40m\033[1;32;40m[*] Subs\033[1;32;40m: "+sub+"           \033[1;36;92m"
-	jalan( "\033[1;92m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰") 
+	jalan( "\033[1;93m⊱⋕⊰═════════════════════════════════════════⊱⋕⊰") 
 	print "\033[1;32;98m[1] \033[1;96m>> Mulai Cloning "																														
 	print "\033[1;32;98m[0] \033[1;96m>> Keluar"
 	pilih()
@@ -373,7 +372,7 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print "\033[1;92m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
+		print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 		menu()
@@ -397,10 +396,10 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;92m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
+	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	jalan( "\x1b[1;32;92m[1] \033[1;33;98m>> Hack Daftar Teman Publik") 
 	jalan( "\x1b[1;32;36m[0] \033[1;33;96m>> Keluar") 
-	print "\033[1;92m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
+	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	pilih_super()
 
 def pilih_super():
@@ -411,7 +410,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;92m⊱⋕⊰═══════════════════════════════════════⊱⋕⊰\n" 
+		print "\033[1;96m⊱⋕⊰═══════════════════════════════════════⊱⋕⊰\n" 
 		idt = raw_input("\033[1;96m[⊱⋕⊰]\033[1;93m Enter ID/USERNAME\033[1;91m : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -569,25 +568,25 @@ def menu():
 	os.system('clear')
 	print logo
 	print 42*"\033[1;91m="
-	print '\033[1;94m[1]\033[1;96m  Bangladesh   \033[1;91m⇋  \033[1;94m[20]\033[1;96m  Albania'
-	print '\033[1;94m[2]\033[1;93m  USA          \033[1;91m⇋  \033[1;94m[21]\033[1;93m  Algeria'
-	print '\033[1;94m[3]\033[1;96m  UK           \033[1;91m⇋  \033[1;94m[22]\033[1;96m  Andorra'
-	print '\033[1;94m[4] \033[1;93m India        \033[1;91m⇋  \033[1;94m[23]\033[1;93m  Armenia'
-	print '\033[1;94m[5]\033[1;96m  Brazil       \033[1;91m⇋  \033[1;94m[24]\033[1;96m  Georgia'
-	print '\033[1;94m[6]\033[1;93m  Japan        \033[1;91m⇋  \033[1;94m[25]\033[1;93m  Iceland'
-	print '\033[1;94m[7]\033[1;96m  Korea        \033[1;91m⇋  \033[1;94m[26]\033[1;96m  China'
-	print '\033[1;94m[8]\033[1;93m  Italy        \033[1;91m⇋  \033[1;94m[27]\033[1;93m  Bhutan'
-	print '\033[1;94m[9]\033[1;96m  Spain        \033[1;91m⇋  \033[1;94m[28]\033[1;96m  Mongolia'
-	print '\033[1;94m[10]\033[1;93m Poland       \033[1;91m⇋  \033[1;94m[29]\033[1;93m  New Zealand'
-	print '\033[1;94m[11]\033[1;96m Pakistan     \033[1;91m⇋  \033[1;94m[30]\033[1;96m  Sudan'
-	print '\033[1;94m[12]\033[1;93m Indonisia    \033[1;91m⇋  \033[1;94m[+]\033[1;92m Pak Nbr Fb Clone\033[1;94m[+] '
-	print '\033[1;94m[13]\033[1;96m Iran         \033[1;91m⇋  \033[1;94m[A]\033[1;93m Telenor' 
-	print '\033[1;94m[14]\033[1;93m Grecee       \033[1;91m⇋  \033[1;94m[B]\033[1;96m  Zong'
-	print '\033[1;94m[15]\033[1;93m Afghanistan  \033[1;91m⇋  \033[1;94m[C]\033[1;93m  Jazz'
-	print '\033[1;94m[16]\033[1;96m Syria        \033[1;91m⇋  \033[1;94m[+]\033[1;92m Bangal Nbr Fb Clone\033[1;94m[+] '
-	print '\033[1;94m[17]\033[1;93m Turky        \033[1;91m⇋  \033[1;94m[D]\033[1;96m Airtel/Robi' 
-	print '\033[1;94m[18]\033[1;96m Iraq         \033[1;91m⇋  \033[1;94m[E]\033[1;93m Grameenphone' 
-	print '\033[1;94m[19]\033[1;93m France       \033[1;91m⇋  \033[1;94m[F]\033[1;96m Banglalink' 
+	print '\033[1;94m[1]\033[1;92m  Bangladesh   \033[1;91m⇋  \033[1;94m[20]\033[1;93m  Albania'
+	print '\033[1;94m[2]\033[1;92m  USA          \033[1;91m⇋  \033[1;94m[21]\033[1;93m  Algeria'
+	print '\033[1;94m[3]\033[1;92m  UK           \033[1;91m⇋  \033[1;94m[22]\033[1;93m  Andorra'
+	print '\033[1;94m[4] \033[1;92m India        \033[1;91m⇋  \033[1;94m[23]\033[1;93m  Armenia'
+	print '\033[1;94m[5]\033[1;92m  Brazil       \033[1;91m⇋  \033[1;94m[24]\033[1;93m  Georgia'
+	print '\033[1;94m[6]\033[1;92m  Japan        \033[1;91m⇋  \033[1;94m[25]\033[1;93m  Iceland'
+	print '\033[1;94m[7]\033[1;92m  Korea        \033[1;91m⇋  \033[1;94m[26]\033[1;93m  China'
+	print '\033[1;94m[8]\033[1;92m  Italy        \033[1;91m⇋  \033[1;94m[27]\033[1;93m  Bhutan'
+	print '\033[1;94m[9]\033[1;92m  Spain        \033[1;91m⇋  \033[1;94m[28]\033[1;93m  Mongolia'
+	print '\033[1;94m[10]\033[1;92m Poland       \033[1;91m⇋  \033[1;94m[29]\033[1;93m  New Zealand'
+	print '\033[1;94m[11]\033[1;92m Pakistan     \033[1;91m⇋  \033[1;94m[30]\033[1;93m  Sudan'
+	print '\033[1;94m[12]\033[1;92m Indonisia    \033[1;91m⇋  \033[1;94m[+]\033[1;93m Pak Nbr Fb Clone\033[1;94m[+] '
+	print '\033[1;94m[13]\033[1;92m Iran         \033[1;91m⇋  \033[1;94m[A]\033[1;93m Telenor' 
+	print '\033[1;94m[14]\033[1;92m Grecee       \033[1;91m⇋  \033[1;94m[B]\033[1;93m  Zong'
+	print '\033[1;94m[15]\033[1;92m Afghanistan  \033[1;91m⇋  \033[1;94m[C]\033[1;93m  Jazz'
+	print '\033[1;94m[16]\033[1;92m Syria        \033[1;91m⇋  \033[1;94m[+]\033[1;93m Bangal Nbr Fb Clone\033[1;94m[+] '
+	print '\033[1;94m[17]\033[1;92m Turky        \033[1;91m⇋  \033[1;94m[D]\033[1;93m Airtel/Robi' 
+	print '\033[1;94m[18]\033[1;92m Iraq         \033[1;91m⇋  \033[1;94m[E]\033[1;93m Grameenphone' 
+	print '\033[1;94m[19]\033[1;92m France       \033[1;91m⇋  \033[1;94m[F]\033[1;93m Banglalink' 
 	print '[0]\033[1;97m  Keluar            '
 	print '>>\033[1;92m Selamat Datang Di Script \033[1;91m(\033[1;97mYayan-XD\033[1;91m) ' 
 	print 42*"\033[1;91m="
@@ -598,14 +597,14 @@ def menu():
 def action():
 	bch = raw_input('\n\033[1;91mPilih Nomer \033[1;93m>>>\033[1;95m  ')
 	if bch =='':
-		print '[!] Fill in correctly'
+		print '[!] Isi dengan benar'
 		action()
 	elif bch =="1":
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m175,165,191, 192, 193, 194, 195, 196, 197, 198, 199")
 		try:
-			c = raw_input("\033[1;96m choose code  : ")
+			c = raw_input("\033[1;96m Masukan Kode  : ")
 			k="+880"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -619,7 +618,7 @@ def action():
 		print (logo)
 		print("786, 815, 315, 256, 401, 718, 917, 202, 701, 303, 703, 803, 999, 708")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+1"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -633,7 +632,7 @@ def action():
 		print (logo)
 		print("737, 706, 748, 783, 739, 759, 790")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+44"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -647,7 +646,7 @@ def action():
 		print (logo)
 		print("954, 897, 967, 937, 700, 727, 965, 786, 874, 856, 566, 590, 527, 568, 578")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+91"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -661,7 +660,7 @@ def action():
 		print (logo)
 		print("127, 179, 117, 853, 318, 219, 834, 186, 479, 113")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+55"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -675,7 +674,7 @@ def action():
 		print (logo)
 		print("11, 12, 19, 16, 15, 13, 14, 18, 17")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+81"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -689,7 +688,7 @@ def action():
 		print (logo)
 		print("1, 2, 3, 4, 5, 6, 7, 8, 9")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+82"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -703,7 +702,7 @@ def action():
 		print (logo)
 		print("388, 390, 391, 371, 380, 368, 386, 384, 332, 344, 351, 328")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+39"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -717,7 +716,7 @@ def action():
 		print (logo)
 		print("60, 76, 73, 64, 69, 77, 65, 61, 75, 68")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+34"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -731,7 +730,7 @@ def action():
 		print (logo)
 		print("66, 69, 78, 79, 60, 72, 67, 53, 51")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+48"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -745,7 +744,7 @@ def action():
 		print (logo)
 		print("\033[1;93m01, ~to~~, 49")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+1"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -757,9 +756,9 @@ def action():
 	elif bch =="12":		
 		os.system("clear")
 		print (logo)
-		print("\033[1;93m81,83,85,84,89,")
+		print("\033[1;93m82,57,89,56,81")
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+1"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -773,7 +772,7 @@ def action():
 		print (logo)
 		print("\033[1;93m901, 902, 903, 930, 933, 935, 936, 937, 938, 939") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+98"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -787,7 +786,7 @@ def action():
 		print (logo)
 		print("\033[1;93m69,693,698,694,695") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+3069"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -801,7 +800,7 @@ def action():
 		print (logo)
 		print("\033[1;96m070, 071, 079, 072, 073, 078, 077, 076, 074, 075") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+93"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -815,7 +814,7 @@ def action():
 		print (logo)
 		print("\033[1;93m11, 21, 57, 41, 15, 52, 31, 23") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+963"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -829,7 +828,7 @@ def action():
 		print (logo)
 		print("\033[1;96m322, 264, 416, 272, 472, 382, 312") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+90"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -843,7 +842,7 @@ def action():
 		print (logo)
 		print("\033[1;96m079, 078, 073, 074") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+964"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -857,7 +856,7 @@ def action():
 		print (logo)
 		print("\033[1;96m3, 2, 1, 4") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+33"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -871,7 +870,7 @@ def action():
 		print (logo)
 		print("\033[1;93m67, 68, 69") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+355"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -885,7 +884,7 @@ def action():
 		print (logo)
 		print("\033[1;96m49, 27, 43, 21,33, 49,26, 34,27,38, 29") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+213"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -899,7 +898,7 @@ def action():
 		print (logo)
 		print("\033[1;95m8, 7, 3") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+376"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -913,7 +912,7 @@ def action():
 		print (logo)
 		print("\033[1;95m22, 43, 23,53, 46,52, 38") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+374"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -927,7 +926,7 @@ def action():
 		print (logo)
 		print("\033[1;95m366, 342, 362,365, 349") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+995"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -941,7 +940,7 @@ def action():
 		print (logo)
 		print("\033[1;95m4, 5") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+354"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -955,7 +954,7 @@ def action():
 		print (logo)
 		print("\033[1;95m139, 138, 137, 138") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+86"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -969,7 +968,7 @@ def action():
 		print (logo)
 		print("\033[1;95m2, 7, 5") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+975"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -983,7 +982,7 @@ def action():
 		print (logo)
 		print("\033[1;95m11") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+976"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -997,7 +996,7 @@ def action():
 		print (logo)
 		print("\033[1;95m9, 24") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+64"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1011,7 +1010,7 @@ def action():
 		print (logo)
 		print("\033[1;95m 21, 41, 183, 81") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+249"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1025,7 +1024,7 @@ def action():
 		print (logo)
 		print("\033[1;95m 40, 41, 42, 43, 44, 45, 46, 47, 48") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1039,7 +1038,7 @@ def action():
 		print (logo)
 		print("\033[1;91m 10, 11, 12, 13, 14, 15, 16, 17, 18") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1053,7 +1052,7 @@ def action():
 		print (logo)
 		print("\033[1;91m 00, 01, 02, 03, 04, 05, 06") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+92"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1067,7 +1066,7 @@ def action():
 		print (logo)
 		print("\033[1;91m 16, 17, 18") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+80"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1081,7 +1080,7 @@ def action():
 		print (logo)
 		print("\033[1;91m 13, 14, 15,16, 18") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+80"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1095,7 +1094,7 @@ def action():
 		print (logo)
 		print("\033[1;91m 14, 19") 
 		try:
-			c = raw_input(" choose code  : ")
+			c = raw_input(" Masukan Kode  : ")
 			k="+80"
 			idlist = ('.txt')
 			for line in open(idlist,"r").readlines():
@@ -1111,14 +1110,12 @@ def action():
      
 		 
 		
-	elif bch =='0':
-		exb()
-	else:
-		print '[!] Fill in correctly'
-		action()
+	elif bch =="0":
+		os.system('rm -rf login.txt')
+		keluar()
 
 	xxx = str(len(id))
-	print ('[✓] Total Numbers: '+xxx)
+	print ('[✓] Total Nomor: '+xxx)
 	time.sleep(0.1)
 	print ('\033[1;91m[✓]\033[1;94m Mohon Tunggu Proses Sedang Berjalan ...')
 	time.sleep(0.1)
